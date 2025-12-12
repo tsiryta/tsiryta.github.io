@@ -3,84 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Отчаянные домохозяйки - Главная</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Реальные упыри - Главная</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1><i class="fas fa-home"></i> Отчаянные домохозяйки</h1>
-            <p class="subtitle">Серия за серией, тайна за тайной</p>
-        </div>
-    </header>
-
     <nav>
-        <ul>
-            <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
-            <li><a href="about.html"><i class="fas fa-info-circle"></i> О сериале</a></li>
-            <li><a href="characters.html"><i class="fas fa-users"></i> Героини</a></li>
-            <li><a href="gallery.html"><i class="fas fa-images"></i> Галерея</a></li>
-        </ul>
+        <div class="nav-container">
+            <a href="index.html" class="nav-link active">Главная</a>
+            <a href="cast.html" class="nav-link">Главные герои</a>
+            <a href="gallery.html" class="nav-link">Галерея</a>
+        </div>
     </nav>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Добро пожаловать на Вистерию Лейн!</h2>
-                <p>Самый совершенный район с самыми несовершенными жителями</p>
-                <a href="about.html" class="btn">Узнать больше</a>
-            </div>
-        </section>
+    <section class="hero">
+        <h1 class="hero-title">Реальные упыри</h1>
+        <p class="hero-subtitle">Культовая новозеландская комедия ужасов 2014 года<br>
+        Режиссеры: Тайка Вайтити и Джемейн Клемент</p>
+        <a href="#description" class="scroll-down">↓ Описание фильма ↓</a>
+    </section>
 
-        <section class="intro">
-            <div class="container">
-                <h2><i class="fas fa-tv"></i> Культовый сериал</h2>
-                <p><strong>«Отчаянные домохозяйки»</strong> (англ. Desperate Housewives) — американский телевизионный сериал в жанре трагикомедии, рассказывающий о жизни четырёх домохозяек, живущих на Вистерия Лейн. Сериал выходил с 2004 по 2012 год и стал одним из самых популярных телепроектов в мире.</p>
-                <p>За 8 сезонов зрители стали свидетелями тайн, интриг, любовных треугольников и загадочных смертей на, казалось бы, идеальной улице пригорода.</p>
-            </div>
-        </section>
-
-        <section class="quick-facts">
-            <div class="container">
-                <h2><i class="fas fa-star"></i> Быстрые факты</h2>
-                <div class="facts-grid">
-                    <div class="fact">
-                        <i class="fas fa-calendar-alt"></i>
-                        <h3>Годы выпуска</h3>
-                        <p>2004 - 2012</p>
-                    </div>
-                    <div class="fact">
-                        <i class="fas fa-film"></i>
-                        <h3>Количество сезонов</h3>
-                        <p>8 сезонов</p>
-                    </div>
-                    <div class="fact">
-                        <i class="fas fa-play-circle"></i>
-                        <h3>Количество серий</h3>
-                        <p>180 серий</p>
-                    </div>
-                    <div class="fact">
-                        <i class="fas fa-award"></i>
-                        <h3>Награды</h3>
-                        <p>7 премий "Эмми"</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section id="description" class="description-section">
+        <div class="description-content fade-in">
+            <h2 class="description-title">О фильме</h2>
+            <p class="description-text">
+                <span class="highlight">«Реальные упыри»</span> (оригинальное название — <span class="highlight">«What We Do in the Shadows»</span>) — это культовая новозеландская комедия ужасов 2014 года, снятая в формате мокьюментари.
+            </p>
+            <p class="description-text">
+                Фильм создали и сыграли главные роли <span class="highlight">Тайка Вайтити</span> и <span class="highlight">Джемейн Клемент</span>. 
+                Лента пародирует жанр «реалити-шоу», следуя за группой вампиров-соседей по квартире.
+            </p>
+            <p class="description-text">
+                Камера документирует их повседневные «проблемы», бытовые ссоры и попытки адаптироваться к реалиям XXI века в пригороде Веллингтона.
+            </p>
+        </div>
+    </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Фан-сайт "Отчаянные домохозяйки". Все права на сериал принадлежат ABC Studios.</p>
-            <p>Сайт создан в образовательных целях.</p>
-            <div class="social">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
+        <p>© 2024 Реальные упыри.</p>
     </footer>
 </body>
 </html>

@@ -3,111 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Отчаянные домохозяйки - Галерея</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Реальные упыри - Галерея</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1><i class="fas fa-home"></i> Отчаянные домохозяйки</h1>
-            <p class="subtitle">Серия за серией, тайна за тайной</p>
-        </div>
-    </header>
-
     <nav>
-        <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
-            <li><a href="about.html"><i class="fas fa-info-circle"></i> О сериале</a></li>
-            <li><a href="characters.html"><i class="fas fa-users"></i> Героини</a></li>
-            <li><a href="gallery.html" class="active"><i class="fas fa-images"></i> Галерея</a></li>
-        </ul>
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="cast.html" class="nav-link">Главные герои</a>
+            <a href="gallery.html" class="nav-link active">Галерея</a>
+        </div>
     </nav>
 
-    <main>
-        <section class="page-header">
-            <div class="container">
-                <h2><i class="fas fa-images"></i> Галерея</h2>
-                <p>Кадры из сериала и постеры</p>
+    <div class="simple-gallery">
+        <h1 class="gallery-title">Галерея</h1>
+        
+        <div class="page-links">
+            <a href="#photo1" class="page-link">Фото 1</a>
+            <a href="#photo2" class="page-link">Фото 2</a>
+            <a href="#photo3" class="page-link">Фото 3</a>
+            <a href="#photo4" class="page-link">Фото 4</a>
+            <a href="#photo5" class="page-link">Фото 5</a>
+            <a href="#photo6" class="page-link">Фото 6</a>
+            <a href="#photo7" class="page-link">Фото 7</a>
+        </div>
+        
+        <div class="photo-column">
+            <div class="big-photo" id="photo1">
+                <img src="images/gal1.webp" 
+                     alt="">
             </div>
-        </section>
-
-        <section class="gallery">
-            <div class="container">
-                <div class="gallery-main">
-                    <div class="main-image">
-                        <div class="image-placeholder large">Главный постер сериала</div>
-                        <p class="image-caption">Официальный постер "Отчаянных домохозяек" с главными героинями</p>
-                    </div>
-                </div>
-
-                <div class="gallery-description">
-                    <h3><i class="fas fa-camera"></i> Визуальный стиль сериала</h3>
-                    <p>«Отчаянные домохозяйки» известны своим ярким визуальным стилем, который сочетает элементы мыльной оперы, комедии и детектива. Каждая серия начинается с заставки, показывающей знаменитые сцены из истории искусства, переосмысленные с участием домохозяек.</p>
-                </div>
-
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Кадр из 1 сезона</div>
-                        <p class="image-caption">Четыре подруги на Вистерии Лейн</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Знаменитая сцена</div>
-                        <p class="image-caption">Бри Ван де Камп за работой на кухне</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Эмоциональный момент</div>
-                        <p class="image-caption">Сьюзан и Майк Дельфино</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Комическая сцена</div>
-                        <p class="image-caption">Линетт пытается справиться с детьми</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Драматический момент</div>
-                        <p class="image-caption">Габриэль и Карлос Солис</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Таинственная сцена</div>
-                        <p class="image-caption">Загадочные события на Вистерии Лейн</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Финальный сезон</div>
-                        <p class="image-caption">Прощальные кадры из 8 сезона</p>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="image-placeholder">Знаменитая заставка</div>
-                        <p class="image-caption">Сцены из искусства в стиле домохозяек</p>
-                    </div>
-                </div>
-
-                <div class="video-section">
-                    <h3><i class="fas fa-video"></i> Заставка сериала</h3>
-                    <div class="video-placeholder">
-                        <div class="video-container">
-                            <div class="video-player">
-                                <i class="fas fa-play-circle"></i>
-                                <p>Заставка "Отчаянных домохозяек"</p>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="video-description">Знаменитая музыкальная тема и визуальный ряд заставки стали одним из самых узнаваемых элементов сериала.</p>
-                </div>
+            
+            <div class="big-photo" id="photo2">
+                <img src="images/gal2.webp" 
+                     alt="">
             </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Фан-сайт "Отчаянные домохозяйки". Все права на сериал принадлежат ABC Studios.</p>
-            <p>Сайт создан в образовательных целях.</p>
-            <div class="social">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+            
+            <div class="big-photo" id="photo3">
+                <img src="images/gal3.webp" 
+                     alt="">
+            </div>
+            
+            <div class="big-photo" id="photo4">
+                <img src="images/gal4.webp" 
+                     alt="">
+            </div>
+            
+            <div class="big-photo" id="photo5">
+                <img src="images/gal5.webp" 
+                     alt="">
+            </div>
+            
+            <div class="big-photo" id="photo6">
+                <img src="images/gal6.webp" 
+                     alt="">
+            </div>
+            
+            <div class="big-photo" id="photo7">
+                <img src="images/gal7.webp" 
+                     alt="">
             </div>
         </div>
+        
+        <div class="page-links">
+            <a href="#" class="page-link">Наверх ↑</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2024 Реальные упыри.</p>
     </footer>
 </body>
 </html>

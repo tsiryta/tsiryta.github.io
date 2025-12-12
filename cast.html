@@ -3,149 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Отчаянные домохозяйки - Героини</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Реальные упыри - Главные герои</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1><i class="fas fa-home"></i> Отчаянные домохозяйки</h1>
-            <p class="subtitle">Серия за серией, тайна за тайной</p>
-        </div>
-    </header>
-
     <nav>
-        <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
-            <li><a href="about.html"><i class="fas fa-info-circle"></i> О сериале</a></li>
-            <li><a href="characters.html" class="active"><i class="fas fa-users"></i> Героини</a></li>
-            <li><a href="gallery.html"><i class="fas fa-images"></i> Галерея</a></li>
-        </ul>
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="cast.html" class="nav-link active">Главные герои</a>
+            <a href="gallery.html" class="nav-link">Галерея</a>
+        </div>
     </nav>
 
-    <main>
-        <section class="page-header">
-            <div class="container">
-                <h2><i class="fas fa-users"></i> Главные героини</h2>
-                <p>Знакомство с жительницами Вистерии Лейн</p>
-            </div>
-        </section>
-
-        <section class="characters">
-            <div class="container">
-                <div class="character-grid">
-                    <div class="character-card">
-                        <div class="character-img">
-                            <div class="img-placeholder bree">Бри</div>
-                        </div>
-                        <div class="character-info">
-                            <h3>Бри Ван де Камп</h3>
-                            <p class="actor">Марсия Кросс</p>
-                            <p class="description">Перфекционистка, одержимая порядком и приличиями. Идеальная хозяйка, прекрасная кулинар, но с глубоко скрытыми эмоциональными проблемами. Вдова ресторатора Рекса Ван де Кампа.</p>
-                            <ul class="character-traits">
-                                <li><i class="fas fa-heart"></i> Состояние: вдова, затем замужем за Орсоном Ходжем</li>
-                                <li><i class="fas fa-briefcase"></i> Профессия: домохозяйка, позже владелица кулинарной компании</li>
-                                <li><i class="fas fa-star"></i> Дети: Эндрю и Даниэль</li>
-                            </ul>
+    <main class="heroes-page">
+        <h1 class="page-title">Главные герои</h1>
+        
+        <div class="all-heroes">
+            <div class="row-3-heroes">
+                <div class="hero-card-simple">
+                    <img src="images/taika.jpg" alt="Виаго" class="hero-img-simple">
+                    <div class="hero-info-simple">
+                        <h2 class="hero-name-simple">Виаго</h2>
+                        <p class="hero-actor-simple">Тайка Вайтити</p>
+                        <div class="hero-desc-simple">
+                            Древний вампир из Новой Зеландии. Несмотря на возраст, ведет себя как подросток. Одержим бытовыми проблемами и дизайном интерьера. Постоянно конфликтует с соседями из-за уборки.
                         </div>
                     </div>
-
-                    <div class="character-card">
-                        <div class="character-img">
-                            <div class="img-placeholder lynette">Линетт</div>
-                        </div>
-                        <div class="character-info">
-                            <h3>Линетт Скаво</h3>
-                            <p class="actor">Фелисити Хаффман</p>
-                            <p class="description">Бывшая бизнес-леди, оставившая карьеру ради воспитания четырёх детей. Прагматичная, умная, иногда циничная. Борется с хаосом семейной жизни и пытается найти баланс.</p>
-                            <ul class="character-traits">
-                                <li><i class="fas fa-heart"></i> Состояние: замужем за Томом Скаво</li>
-                                <li><i class="fas fa-briefcase"></i> Профессия: бывший вице-президент по рекламе, домохозяйка</li>
-                                <li><i class="fas fa-star"></i> Дети: Портер, Престон, Паркер и Пейдж</li>
-                            </ul>
+                </div>
+                
+                <div class="hero-card-simple">
+                    <img src="images/klement.jpg" alt="Владислав" class="hero-img-simple">
+                    <div class="hero-info-simple">
+                        <h2 class="hero-name-simple">Владислав</h2>
+                        <p class="hero-actor-simple">Джемейн Клемент</p>
+                        <div class="hero-desc-simple">
+                            Агрессивный вампир османского происхождения. Ностальгирует по временам, когда можно было свободно убивать людей. С трудом адаптируется к современным технологиям и правилам.
                         </div>
                     </div>
+                </div>
 
-                    <div class="character-card">
-                        <div class="character-img">
-                            <div class="img-placeholder susan">Сьюзан</div>
-                        </div>
-                        <div class="character-info">
-                            <h3>Сьюзан Майер</h3>
-                            <p class="actor">Тери Хэтчер</p>
-                            <p class="description">Неуклюжая, сентиментальная, добрая, но вечно попадающая в неловкие ситуации. Детская писательница и иллюстратор. Всегда ищет любовь и часто действует, не подумав.</p>
-                            <ul class="character-traits">
-                                <li><i class="fas fa-heart"></i> Состояние: разведена, затем замужем за Майком Дельфино</li>
-                                <li><i class="fas fa-briefcase"></i> Профессия: детская писательница и иллюстратор</li>
-                                <li><i class="fas fa-star"></i> Дети: Джули Майер</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="character-card">
-                        <div class="character-img">
-                            <div class="img-placeholder gabrielle">Габриэль</div>
-                        </div>
-                        <div class="character-info">
-                            <h3>Габриэль Солис</h3>
-                            <p class="actor">Ева Лонгория</p>
-                            <p class="description">Бывшая модель, вышедшая замуж за богатого бизнесмена. Материалистка, любит роскошь, но с добрым сердцем. Проходит путь от избалованной жены до сильной, независимой женщины.</p>
-                            <ul class="character-traits">
-                                <li><i class="fas fa-heart"></i> Состояние: замужем за Карлосом Солисом</li>
-                                <li><i class="fas fa-briefcase"></i> Профессия: бывшая модель, потом бизнесвумен</li>
-                                <li><i class="fas fa-star"></i> Дети: Хуанита и Селия</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="character-card">
-                        <div class="character-img">
-                            <div class="img-placeholder edie">Иди</div>
-                        </div>
-                        <div class="character-info">
-                            <h3>Иди Бритт</h3>
-                            <p class="actor">Николетт Шеридан</p>
-                            <p class="description">Сексуальная, откровенная, циничная риелтор. Не боится говорить правду в лицо. Часто вступает в конфликты с другими домохозяйками, особенно с Сьюзан. Имеет сложные отношения с мужчинами.</p>
-                            <ul class="character-traits">
-                                <li><i class="fas fa-heart"></i> Состояние: несколько раз замужем, много романов</li>
-                                <li><i class="fas fa-briefcase"></i> Профессия: агент по недвижимости</li>
-                                <li><i class="fas fa-star"></i> Дети: Трэвис</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="character-card">
-                        <div class="character-img">
-                            <div class="img-placeholder mary">Мэри Элис</div>
-                        </div>
-                        <div class="character-info">
-                            <h3>Мэри Элис Янг</h3>
-                            <p class="actor">Бренда Стронг</p>
-                            <p class="description">Закадровый голос сериала. Кажущаяся идеальной жена и мать, которая совершает самоубийство в первой серии. Её смерть становится отправной точкой для раскрытия тайн Вистерии Лейн.</p>
-                            <ul class="character-traits">
-                                <li><i class="fas fa-heart"></i> Состояние: замужем за Полом Янгом</li>
-                                <li><i class="fas fa-briefcase"></i> Профессия: домохозяйка</li>
-                                <li><i class="fas fa-star"></i> Дети: Зак Янг (приёмный)</li>
-                            </ul>
+                <div class="hero-card-simple">
+                    <img src="images/jo.jpg" alt="Дикон" class="hero-img-simple">
+                    <div class="hero-info-simple">
+                        <h2 class="hero-name-simple">Дикон</h2>
+                        <p class="hero-actor-simple">Джонатан Бруг</p>
+                        <div class="hero-desc-simple">
+                            Самый молодой в вампирском доме. Превращен в 1990-х, поэтому лучше всех разбирается в технологиях. Часто выступает посредником в конфликтах старших вампиров.
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+            
+            <div class="row-2-heroes">
+                <div class="hero-card-simple">
+                    <img src="images/cori.jpg" alt="Ник" class="hero-img-simple">
+                    <div class="hero-info-simple">
+                        <h2 class="hero-name-simple">Ник</h2>
+                        <p class="hero-actor-simple">Кори Гонсалес-Макуэр</p>
+                        <div class="hero-desc-simple">
+                            Новичок в вампирском мире. Недавно превращен, поэтому сохранил человеческие привычки. Задает много вопросов и удивляется вампирским традициям.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-card-simple">
+                    <img src="images/stu.jpg" alt="Стью" class="hero-img-simple">
+                    <div class="hero-info-simple">
+                        <h2 class="hero-name-simple">Стью</h2>
+                        <p class="hero-actor-simple">Стью Рутерфорд</p>
+                        <div class="hero-desc-simple">
+                            Обычный человек, который случайно оказался вовлечен в вампирские дела. Самый нормальный и адекватный среди всей компании. Часто страдает от выходок вампиров.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; color: #888; margin-top: 3rem; font-style: italic;">
+            5 главных персонажей фильма "Реальные упыри"
+        </div>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Фан-сайт "Отчаянные домохозяйки". Все права на сериал принадлежат ABC Studios.</p>
-            <p>Сайт создан в образовательных целях.</p>
-            <div class="social">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
+        <p>© 2024 Реальные упыри.</p>
     </footer>
 </body>
 </html>
